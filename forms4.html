@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health Survey</title>
+</head>
+<body>
+  <h2>Health Survey Form</h2>
+  <form>
+    Name: <input type="text" name="name" required><br><br>
+    Age: <input type="number" name="age" required><br><br>
+    Gender:
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <input type="radio" name="gender" value="Other">Other<br><br>
+    Height (cm): <input type="number" name="height" required><br><br>
+    Weight (kg): <input type="number" name="weight" required><br><br>
+    Lifestyle:<br>
+    <input type="checkbox" name="lifestyle" value="Smoking">Smoking
+    <input type="checkbox" name="lifestyle" value="Alcohol">Alcohol
+    <input type="checkbox" name="lifestyle" value="Exercise">Exercise<br><br>
+    Diet:
+    <select name="diet" required>
+      <option value="">--Select--</option>
+      <option>Vegetarian</option>
+      <option>Non-Vegetarian</option>
+      <option>Vegan</option>
+    </select><br><br>
+    Activity:
+    <select name="activity" required>
+      <option value="">--Select--</option>
+      <option>Sedentary</option>
+      <option>Moderate</option>
+      <option>Active</option>
+    </select><br><br>
+    Health Concerns:<br>
+    <textarea name="concerns" rows="3" cols="30"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
