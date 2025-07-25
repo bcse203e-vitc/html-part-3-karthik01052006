@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Booking</title>
+</head>
+<body>
+  <h2>Travel Booking Form</h2>
+
+  <form>
+    Name: <input type="text" name="name" required><br><br>
+
+    Contact: <input type="text" name="contact" required><br><br>
+
+    Destination:
+    <select name="destination" required>
+      <option value="">--Select--</option>
+      <option>Paris</option>
+      <option>New York</option>
+      <option>Tokyo</option>
+    </select><br><br>
+
+    Travel Date: <input type="date" name="date" required><br><br>
+
+    Travelers: <input type="number" name="travelers" min="1" value="1" required><br><br>
+
+    Class:<br>
+    <input type="radio" name="class" value="Economy">Economy
+    <input type="radio" name="class" value="Business">Business
+    <input type="radio" name="class" value="First">First Class<br><br>
+
+    <input type="checkbox" name="insurance"> Add Travel Insurance<br><br>
+
+    <button type="submit">Book Now</button>
+  </form>
+</body>
+</html>
